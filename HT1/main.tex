@@ -7,6 +7,126 @@
 %--------------------------
 
 \input{Problemas/1}
+
+
+\begin{problema}
+	Dado un cuadrado determinar las transformaciones que llevan al cuadrado sobre el mismo. Luego completar la tabla con la composición de transformaciones como lo hicimos con el triángulo equilátero.
+\end{problema}
+
+\begin{sol}
+	Se propone encontrar los ejes de simetría del cuadrado por medio de sus bisectrices y mediatrices, tal que 
+	
+		\begin{figure}[H]
+		\centering
+		\includegraphics[scale=1.5]{Images/P2-1.png}
+	\end{figure}
+
+Entonces, una de sus transformaciones que llevan al cuadrado sobre el mismo es: 
+
+$$\operatorname{Rot}(H, 360^{\circ}).$$
+
+Nombraremos el cuadrado como: $\square ABCD$, procedemos a hacer el cuadro: 
+
+% Please add the following required packages to your document preamble:
+% \usepackage[normalem]{ulem}
+% \useunder{\uline}{\ul}{}
+\begin{table}[H]
+	\centering 
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+		\hline
+		\textit{\textbf{0}}      & {\ul \textit{$R_{0}$}}      & {\ul \textit{$R_{90}$}}     & {\ul \textit{$R_{180}$}}    & {\ul \textit{$R_{270}$}}    & {\ul \textit{$h_d$}}        & {\ul \textit{$h_c$}}        & {\ul \textit{$h_a$}}        & {\ul \textit{$h_b$}}        \\ \hline
+		{\ul \textit{$R_{0}$}}   & \textit{\textbf{$R_{0}$}}   & \textit{\textbf{$R_{90}$}}  & \textit{\textbf{$R_{180}$}} & \textit{\textbf{$R_{270}$}} & \textit{\textbf{$h_d$}}     & \textit{\textbf{$h_c$}}     & \textit{\textbf{$h_a$}}     & \textit{\textbf{$h_b$}}     \\ \hline
+		{\ul \textit{$R_{90}$}}  & \textit{\textbf{$R_{90}$}}  & \textit{\textbf{$R_{180}$}} & \textit{\textbf{$R_{270}$}} & \textit{\textbf{$R_{0}$}}   & \textit{\textbf{$h_b$}}     & \textit{\textbf{$h_a$}}     & \textit{\textbf{$h_d$}}     & \textit{\textbf{$h_c$}}     \\ \hline
+		{\ul \textit{$R_{180}$}} & \textit{\textbf{$R_{180}$}} & \textit{\textbf{$R_{270}$}} & \textit{\textbf{$R_{0}$}}   & \textit{\textbf{$R_{90}$}}  & \textit{\textbf{$h_c$}}     & \textit{\textbf{$h_d$}}     & \textit{\textbf{$h_b$}}     & \textit{\textbf{$h_a$}}     \\ \hline
+		{\ul \textit{$R_{270}$}} & \textit{\textbf{$R_{270}$}} & \textit{\textbf{$R_{0}$}}   & \textit{\textbf{$R_{90}$}}  & \textit{\textbf{$R_{180}$}} & \textit{\textbf{$h_a$}}     & \textit{\textbf{$h_b$}}     & \textit{\textbf{$h_c$}}     & \textit{\textbf{$h_d$}}     \\ \hline
+		{\ul \textit{$h_d$}}     & \textit{\textbf{$h_d$}}     & \textit{\textbf{$h_a$}}     & \textit{\textbf{$h_c$}}     & \textit{\textbf{$h_b$}}     & \textit{\textbf{$R_0$}}     & \textit{\textbf{$R_{180}$}} & \textit{\textbf{$R_{90}$}}  & \textit{\textbf{$R_{270}$}} \\ \hline
+		{\ul \textit{$h_c$}}     & \textit{\textbf{$h_c$}}     & \textit{\textbf{$h_b$}}     & \textit{\textbf{$h_d$}}     & \textit{\textbf{$h_a$}}     & \textit{\textbf{$R_{180}$}} & \textit{\textbf{$R_0$}}     & \textit{\textbf{$R_{270}$}} & \textit{\textbf{$R_{90}$}}  \\ \hline
+		{\ul \textit{$h_a$}}     & \textit{\textbf{$h_a$}}     & \textit{\textbf{$h_c$}}     & \textit{\textbf{$h_b$}}     & \textit{\textbf{$h_d$}}     & \textit{\textbf{$R_{270}$}} & \textit{\textbf{$R_{90}$}}  & \textit{\textbf{$R_0$}}     & \textit{\textbf{$R_{180}$}} \\ \hline
+		{\ul \textit{$h_b$}}     & \textit{\textbf{$h_b$}}     & \textit{\textbf{$h_d$}}     & \textit{\textbf{$h_a$}}     & \textit{\textbf{$h_c$}}     & \textit{\textbf{$R_{90}$}}  & \textit{\textbf{$R_{270}$}} & \textit{\textbf{$R_{180}$}} & \textit{\textbf{$R_0$}}     \\ \hline
+	\end{tabular}
+\end{table}
+\end{sol}
+
+\begin{problema}
+	Dado el poligono cuyos vértices se encuentran en los puntos:
+	$$
+	A=(3,3), B=(5,1), \quad C=(7,1), \quad D=(9,3), E=(9,5)
+	$$
+	Aplique las siguientes transformaciones: 
+	\begin{enumerate}
+		\item Rotación $=\operatorname{rot}\left(\mathrm{D}, 90^{\circ}\right)$
+		\item Reflexión: $\operatorname{Ref} \overrightarrow{A E}$
+	    \item Traslación $=\operatorname{Tra}(\overrightarrow{A C})$
+	    \item Homotecia $=\operatorname{Hom}\left(O(0,0), k=\frac{1}{2}\right)$
+	\end{enumerate}
+
+	En el siguiente orden:
+	
+	$$
+	\operatorname{rot}\left(D, 90^{\circ}\right) \circ \operatorname{Ref} \overrightarrow{A E} \circ \operatorname{Tra}(\overrightarrow{A C}) \circ \operatorname{Hom}\left(\mathrm{O}(0,0), \mathrm{k}=\frac{1}{2}\right)
+	$$
+\end{problema}
+
+\begin{sol}
+	Aplicando las siguientes transformaciones: 
+		\begin{enumerate}
+		\item Rotación $=\operatorname{rot}\left(\mathrm{D}, 90^{\circ}\right)$ - \textcolor{blue}{Celeste}
+		\item Reflexión: $\operatorname{Ref} \overrightarrow{A E}$ - \textcolor{orange}{Naranja}
+		\item Traslación $=\operatorname{Tra}(\overrightarrow{A C})$- \textcolor{green}{Verde}
+		\item Homotecia $=\operatorname{Hom}\left(O(0,0), k=\frac{1}{2}\right)$ - \textcolor{purple}{Morado}
+	\end{enumerate}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=1]{Images/P3-1.png}
+	\end{figure}
+\end{sol}
+\begin{problema}
+	Si A,B y C son puntos colineales distintos, P,Q y R son los puntos medios de $\mathrm{BC}, \mathrm{CA}$ y $\mathrm{AB}$ respectivamente muestre que el punto medio de CR coincide con el punto medio de PQ (Haga una construcción)
+\end{problema}
+	\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{Images/P4.png}
+	\caption{Construcción}
+\end{figure}
+	\begin{figure}[H]
+	\centering
+	\includegraphics[scale=1]{Images/P4-1.png}
+	\caption{Construcción}
+\end{figure}
+
+\begin{proof}
+	content...
+\end{proof}
+
+\begin{problema}
+	Muestre que si $P$ es el punto medio de $B C$ en el triángulo $A B C, y$ si $A B$ es menor que AC entonces el ángulo PAC es menor que el ángulo BAP.
+\end{problema}
+
+	\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Images/P5.png}
+	\caption{Construcción}
+\end{figure}
+
+\begin{proof}
+	content...
+\end{proof}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 %---------------------------
 \bibliographystyle{apa}
 \bibliography{referencias.bib}
