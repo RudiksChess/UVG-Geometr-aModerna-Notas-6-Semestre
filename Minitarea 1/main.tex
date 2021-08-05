@@ -1,0 +1,50 @@
+\input{Configuraciones/paquetes}
+
+%--------------------------
+
+\begin{document}
+\input{Configuraciones/nombres}
+%--------------------------
+\begin{center}
+	\includegraphics[scale=1]{Problemas/antiparalelas}
+\end{center}
+
+
+\begin{problema}
+	Si una de las antiparalelas se refleja sobre la bisectriz entonces queda paralela a la otra. 
+\end{problema}
+\begin{proof}
+	Considérese la reflexión de la línea antiparalela $\overline{EF}$ respecto a $Z$, que forma la línea $\overline{E'F'}$. Ahora, nótese que tenemos un triangulo $\triangle \overline{I_1 E Z}$ que su reflexión está dado por $\triangle \overline{I_1'E' Z'}$ en donde sus ángulos y lados se preservan por la reflexión. $\implies \angle \overline{I_1 E Z}\cong \overline{I_1'E' Z'}$. Por la definición de ángulos internos alternos, $\overline{EF}\parallel \overline{E'F'}$.
+\end{proof}
+
+%-------------------
+
+\begin{problema}
+	Las bisectrices de cada par de líneas son perpendiculares entre sí. 
+\end{problema}
+\begin{proof}
+	Inmediatamente por la definición de antiparalelas y bisectriz. 
+	\begin{enumerate}
+		\item Antiparalelas: $\angle \overline{ E I_1 I_2}\cong \overline{ E I_2 I_1}$. 
+		\item Bisectriz: $\angle \overline{ I_1 E Z}\cong \overline{I_2 E Z}$
+	\end{enumerate}
+Entonces, tenemos un $\triangle \overline{EI_1I_2}$ isósceles y por por lo tanto las bisectrices son perpendiculares entre sí. 
+\end{proof}
+
+
+%-------------------
+
+\begin{problema}
+	Si $a$ y $b$ son antiparalelas entre sí, respecto a $c,d$ entonces $c,d$ son antiparalelas entre sí respecto a $a,b$. 
+\end{problema}
+\begin{proof}
+	Sabemos $(a,b)\not \parallel (c,d)$. Por el problema anterior, como sabemos que las bisectrices son perpendiculares entre sí y por definición de bisectriz los ángulos que conforman la partición de $(a,b)$ son iguales. Entonces, tenemos dos triángulos que comparten dos ángulos iguales y por lo tanto, el tercer ángulo debe ser igual en ambos triángulos. Por lo tanto, $(c,d)\not \parallel (a,b)$.
+\end{proof}
+
+
+
+%---------------------------
+\bibliographystyle{apa}
+\bibliography{referencias.bib}
+
+\end{document}

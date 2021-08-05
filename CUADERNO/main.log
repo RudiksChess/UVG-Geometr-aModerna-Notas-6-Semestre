@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.18)  20 JUL 2021 17:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2021.5.18)  4 AUG 2021 19:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1585,17 +1585,17 @@ l.41 \newpage
               [1
 
 ]) (./Secciones/Sesion1.tex
-<images/Sesion1/1.png, id=59, 438.63875pt x 181.67876pt>
+<images/Sesion1/1.png, id=74, 438.63875pt x 181.67876pt>
 File: images/Sesion1/1.png Graphic file (type png)
 <use images/Sesion1/1.png>
 Package pdftex.def Info: images/Sesion1/1.png  used on input line 19.
 (pdftex.def)             Requested size: 219.31883pt x 90.83914pt.
-<images/Sesion1/2.png, id=61, 521.95pt x 191.71625pt>
+<images/Sesion1/2.png, id=76, 521.95pt x 191.71625pt>
 File: images/Sesion1/2.png Graphic file (type png)
 <use images/Sesion1/2.png>
 Package pdftex.def Info: images/Sesion1/2.png  used on input line 24.
 (pdftex.def)             Requested size: 260.97435pt x 95.85788pt.
-<images/Sesion1/3.png, id=62, 238.8925pt x 191.71625pt>
+<images/Sesion1/3.png, id=77, 238.8925pt x 191.71625pt>
 File: images/Sesion1/3.png Graphic file (type png)
 <use images/Sesion1/3.png>
 Package pdftex.def Info: images/Sesion1/3.png  used on input line 27.
@@ -1606,12 +1606,12 @@ been already used, duplicate ignored
                    \relax 
 l.28 	\end{center}
                    [1 <./images/Sesion1/1.png> <./images/Sesion1/2.png>]
-<images/Sesion1/4.png, id=78, 289.08pt x 288.07625pt>
+<images/Sesion1/4.png, id=93, 289.08pt x 288.07625pt>
 File: images/Sesion1/4.png Graphic file (type png)
 <use images/Sesion1/4.png>
 Package pdftex.def Info: images/Sesion1/4.png  used on input line 32.
 (pdftex.def)             Requested size: 144.53964pt x 144.03777pt.
-<images/Sesion1/5.png, id=79, 496.85625pt x 305.14pt>
+<images/Sesion1/5.png, id=94, 496.85625pt x 305.14pt>
 File: images/Sesion1/5.png Graphic file (type png)
 <use images/Sesion1/5.png>
 Package pdftex.def Info: images/Sesion1/5.png  used on input line 44.
@@ -1619,7 +1619,7 @@ Package pdftex.def Info: images/Sesion1/5.png  used on input line 44.
 
 [2 <./images/Sesion1/3.png> <./images/Sesion1/4.png> <./images/Sesion1/5.png>])
 (./Secciones/Sesion2.tex
-<images/Sesion2/1.png, id=93, 1169.36874pt x 617.30624pt>
+<images/Sesion2/1.png, id=108, 1169.36874pt x 617.30624pt>
 File: images/Sesion2/1.png Graphic file (type png)
 <use images/Sesion2/1.png>
 Package pdftex.def Info: images/Sesion2/1.png  used on input line 4.
@@ -1629,13 +1629,13 @@ Overfull \hbox (55.17424pt too wide) in paragraph at lines 4--5
  [] 
  []
 
-<images/Sesion2/2.png, id=94, 943.525pt x 785.93625pt>
+<images/Sesion2/2.png, id=109, 943.525pt x 785.93625pt>
 File: images/Sesion2/2.png Graphic file (type png)
 <use images/Sesion2/2.png>
 Package pdftex.def Info: images/Sesion2/2.png  used on input line 8.
 (pdftex.def)             Requested size: 377.4033pt x 314.36893pt.
 [3]) (./Secciones/Sesion3.tex
-<apendices/s3.pdf, id=108, 597.51233pt x 845.0471pt>
+<apendices/s3.pdf, id=123, 597.51233pt x 845.0471pt>
 File: apendices/s3.pdf Graphic file (type pdf)
 <use apendices/s3.pdf>
 Package pdftex.def Info: apendices/s3.pdf  used on input line 3.
@@ -1644,7 +1644,7 @@ File: apendices/s3.pdf Graphic file (type pdf)
 <use apendices/s3.pdf>
 Package pdftex.def Info: apendices/s3.pdf  used on input line 3.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<apendices/s3.pdf, id=111, page=1, 597.51233pt x 845.0471pt>
+<apendices/s3.pdf, id=126, page=1, 597.51233pt x 845.0471pt>
 File: apendices/s3.pdf Graphic file (type pdf)
 <use apendices/s3.pdf, page 1>
 Package pdftex.def Info: apendices/s3.pdf , page1 used on input line 3.
@@ -1667,7 +1667,7 @@ File: apendices/s3.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/s3.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [5 <./apendices/s3.pdf>]
-<apendices/s3.pdf, id=194, page=2, 597.51233pt x 845.0471pt>
+<apendices/s3.pdf, id=209, page=2, 597.51233pt x 845.0471pt>
 File: apendices/s3.pdf Graphic file (type pdf)
 <use apendices/s3.pdf, page 2>
 Package pdftex.def Info: apendices/s3.pdf , page2 used on input line 3.
@@ -1681,7 +1681,7 @@ File: apendices/s3.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/s3.pdf , page2 used on input line 3.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [6 <./apendices/s3.pdf>]
-<apendices/s3.pdf, id=199, page=3, 597.51233pt x 845.0471pt>
+<apendices/s3.pdf, id=214, page=3, 597.51233pt x 845.0471pt>
 File: apendices/s3.pdf Graphic file (type pdf)
 <use apendices/s3.pdf, page 3>
 Package pdftex.def Info: apendices/s3.pdf , page3 used on input line 3.
@@ -1695,7 +1695,7 @@ File: apendices/s3.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/s3.pdf , page3 used on input line 3.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [7 <./apendices/s3.pdf>]) (./Secciones/Sesion4.tex
-<apendices/s4s52.pdf, id=204, 597.51233pt x 845.0471pt>
+<apendices/s4s52.pdf, id=219, 597.51233pt x 845.0471pt>
 File: apendices/s4s52.pdf Graphic file (type pdf)
 <use apendices/s4s52.pdf>
 Package pdftex.def Info: apendices/s4s52.pdf  used on input line 3.
@@ -1704,7 +1704,7 @@ File: apendices/s4s52.pdf Graphic file (type pdf)
 <use apendices/s4s52.pdf>
 Package pdftex.def Info: apendices/s4s52.pdf  used on input line 3.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<apendices/s4s52.pdf, id=207, page=1, 597.51233pt x 845.0471pt>
+<apendices/s4s52.pdf, id=222, page=1, 597.51233pt x 845.0471pt>
 File: apendices/s4s52.pdf Graphic file (type pdf)
 <use apendices/s4s52.pdf, page 1>
 Package pdftex.def Info: apendices/s4s52.pdf , page1 used on input line 3.
@@ -1727,7 +1727,7 @@ File: apendices/s4s52.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/s4s52.pdf , page1 used on input line 3.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [9 <./apendices/s4s52.pdf>]
-<apendices/s4s52.pdf, id=361, page=2, 597.51233pt x 845.0471pt>
+<apendices/s4s52.pdf, id=376, page=2, 597.51233pt x 845.0471pt>
 File: apendices/s4s52.pdf Graphic file (type pdf)
 <use apendices/s4s52.pdf, page 2>
 Package pdftex.def Info: apendices/s4s52.pdf , page2 used on input line 3.
@@ -1741,7 +1741,7 @@ File: apendices/s4s52.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/s4s52.pdf , page2 used on input line 3.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [10 <./apendices/s4s52.pdf>]
-<apendices/s4s52.pdf, id=366, page=3, 597.51233pt x 845.0471pt>
+<apendices/s4s52.pdf, id=381, page=3, 597.51233pt x 845.0471pt>
 File: apendices/s4s52.pdf Graphic file (type pdf)
 <use apendices/s4s52.pdf, page 3>
 Package pdftex.def Info: apendices/s4s52.pdf , page3 used on input line 3.
@@ -1755,7 +1755,7 @@ File: apendices/s4s52.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/s4s52.pdf , page3 used on input line 3.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [11 <./apendices/s4s52.pdf>]
-<apendices/s4s51.pdf, id=372, 597.51233pt x 845.0471pt>
+<apendices/s4s51.pdf, id=387, 597.51233pt x 845.0471pt>
 File: apendices/s4s51.pdf Graphic file (type pdf)
 <use apendices/s4s51.pdf>
 Package pdftex.def Info: apendices/s4s51.pdf  used on input line 4.
@@ -1764,7 +1764,7 @@ File: apendices/s4s51.pdf Graphic file (type pdf)
 <use apendices/s4s51.pdf>
 Package pdftex.def Info: apendices/s4s51.pdf  used on input line 4.
 (pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<apendices/s4s51.pdf, id=375, page=1, 597.51233pt x 845.0471pt>
+<apendices/s4s51.pdf, id=390, page=1, 597.51233pt x 845.0471pt>
 File: apendices/s4s51.pdf Graphic file (type pdf)
 <use apendices/s4s51.pdf, page 1>
 Package pdftex.def Info: apendices/s4s51.pdf , page1 used on input line 4.
@@ -1786,7 +1786,7 @@ File: apendices/s4s51.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/s4s51.pdf , page1 used on input line 4.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [12 <./apendices/s4s51.pdf>]
-<apendices/s4s51.pdf, id=426, page=2, 597.51233pt x 845.0471pt>
+<apendices/s4s51.pdf, id=441, page=2, 597.51233pt x 845.0471pt>
 File: apendices/s4s51.pdf Graphic file (type pdf)
 <use apendices/s4s51.pdf, page 2>
 Package pdftex.def Info: apendices/s4s51.pdf , page2 used on input line 4.
@@ -1800,7 +1800,7 @@ File: apendices/s4s51.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/s4s51.pdf , page2 used on input line 4.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [13 <./apendices/s4s51.pdf>]
-<apendices/s4s51.pdf, id=431, page=3, 597.51233pt x 845.0471pt>
+<apendices/s4s51.pdf, id=446, page=3, 597.51233pt x 845.0471pt>
 File: apendices/s4s51.pdf Graphic file (type pdf)
 <use apendices/s4s51.pdf, page 3>
 Package pdftex.def Info: apendices/s4s51.pdf , page3 used on input line 4.
@@ -1814,7 +1814,7 @@ File: apendices/s4s51.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/s4s51.pdf , page3 used on input line 4.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [14 <./apendices/s4s51.pdf>]
-<apendices/s4s51.pdf, id=436, page=4, 597.51233pt x 845.0471pt>
+<apendices/s4s51.pdf, id=451, page=4, 597.51233pt x 845.0471pt>
 File: apendices/s4s51.pdf Graphic file (type pdf)
 <use apendices/s4s51.pdf, page 4>
 Package pdftex.def Info: apendices/s4s51.pdf , page4 used on input line 4.
@@ -1828,7 +1828,99 @@ File: apendices/s4s51.pdf Graphic file (type pdf)
 Package pdftex.def Info: apendices/s4s51.pdf , page4 used on input line 4.
 (pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
  [15 <./apendices/s4s51.pdf>])
-(./main.aux
+(./Secciones/Sesion6.tex
+<images/Sesion6.pdf, id=456, 597.50829pt x 845.0471pt>
+File: images/Sesion6.pdf Graphic file (type pdf)
+<use images/Sesion6.pdf>
+Package pdftex.def Info: images/Sesion6.pdf  used on input line 3.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: images/Sesion6.pdf Graphic file (type pdf)
+<use images/Sesion6.pdf>
+Package pdftex.def Info: images/Sesion6.pdf  used on input line 3.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+<images/Sesion6.pdf, id=459, page=1, 597.50829pt x 845.0471pt>
+File: images/Sesion6.pdf Graphic file (type pdf)
+<use images/Sesion6.pdf, page 1>
+Package pdftex.def Info: images/Sesion6.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.50682pt x 845.04504pt.
+File: images/Sesion6.pdf Graphic file (type pdf)
+<use images/Sesion6.pdf, page 1>
+Package pdftex.def Info: images/Sesion6.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [16]
+File: images/Sesion6.pdf Graphic file (type pdf)
+<use images/Sesion6.pdf, page 1>
+Package pdftex.def Info: images/Sesion6.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: images/Sesion6.pdf Graphic file (type pdf)
+<use images/Sesion6.pdf, page 1>
+Package pdftex.def Info: images/Sesion6.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: images/Sesion6.pdf Graphic file (type pdf)
+<use images/Sesion6.pdf, page 1>
+Package pdftex.def Info: images/Sesion6.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [17 <./images/Sesion6.pdf>]
+<images/Sesion6.pdf, id=523, page=2, 597.50829pt x 845.0471pt>
+File: images/Sesion6.pdf Graphic file (type pdf)
+<use images/Sesion6.pdf, page 2>
+Package pdftex.def Info: images/Sesion6.pdf , page2 used on input line 3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: images/Sesion6.pdf Graphic file (type pdf)
+<use images/Sesion6.pdf, page 2>
+Package pdftex.def Info: images/Sesion6.pdf , page2 used on input line 3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: images/Sesion6.pdf Graphic file (type pdf)
+<use images/Sesion6.pdf, page 2>
+Package pdftex.def Info: images/Sesion6.pdf , page2 used on input line 3.
+(pdftex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [18 <./images/Sesion6.pdf>]) (./Secciones/Sesion7.tex
+<apendices/s7.pdf, id=534, 597.51233pt x 845.0471pt>
+File: apendices/s7.pdf Graphic file (type pdf)
+<use apendices/s7.pdf>
+Package pdftex.def Info: apendices/s7.pdf  used on input line 3.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: apendices/s7.pdf Graphic file (type pdf)
+<use apendices/s7.pdf>
+Package pdftex.def Info: apendices/s7.pdf  used on input line 3.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+<apendices/s7.pdf, id=537, page=1, 597.51233pt x 845.0471pt>
+File: apendices/s7.pdf Graphic file (type pdf)
+<use apendices/s7.pdf, page 1>
+Package pdftex.def Info: apendices/s7.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
+File: apendices/s7.pdf Graphic file (type pdf)
+<use apendices/s7.pdf, page 1>
+Package pdftex.def Info: apendices/s7.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [19]
+File: apendices/s7.pdf Graphic file (type pdf)
+<use apendices/s7.pdf, page 1>
+Package pdftex.def Info: apendices/s7.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: apendices/s7.pdf Graphic file (type pdf)
+<use apendices/s7.pdf, page 1>
+Package pdftex.def Info: apendices/s7.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: apendices/s7.pdf Graphic file (type pdf)
+<use apendices/s7.pdf, page 1>
+Package pdftex.def Info: apendices/s7.pdf , page1 used on input line 3.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [20 <./apendices/s7.pdf>]
+<apendices/s7.pdf, id=584, page=2, 597.51233pt x 845.0471pt>
+File: apendices/s7.pdf Graphic file (type pdf)
+<use apendices/s7.pdf, page 2>
+Package pdftex.def Info: apendices/s7.pdf , page2 used on input line 3.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: apendices/s7.pdf Graphic file (type pdf)
+<use apendices/s7.pdf, page 2>
+Package pdftex.def Info: apendices/s7.pdf , page2 used on input line 3.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+File: apendices/s7.pdf Graphic file (type pdf)
+<use apendices/s7.pdf, page 2>
+Package pdftex.def Info: apendices/s7.pdf , page2 used on input line 3.
+(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
+ [21 <./apendices/s7.pdf>]) (./Secciones/Sesion8.tex) [22] (./main.aux
 LaTeX Info: Redefining \sptext on input line 30.
 LaTeX Info: Redefining \. on input line 30.
 LaTeX Info: Redefining \% on input line 30.
@@ -1837,38 +1929,41 @@ LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0DE1B24878F8C61580BDD54C2EF47DA0;836.
+(rerunfilecheck)             Checksum: E94C81FF3ECFB7F2B36A3CAFAA8385F8;1104.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37488 strings out of 478994
- 708625 string characters out of 5858184
+ 37543 strings out of 478994
+ 709712 string characters out of 5858184
  1595620 words of memory out of 5000000
- 54186 multiletter control sequences out of 15000+600000
+ 54216 multiletter control sequences out of 15000+600000
  422170 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  102i,17n,105p,737b,2676s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
 </usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
 /usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
-sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
-r/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/
-local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/lo
-cal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loca
-l/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local/
-texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/te
-xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/texl
-ive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texliv
-e/2021/texmf-dist/fonts/type1/public/cm-super/sfcc2488.pfb></usr/local/texlive/
-2021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/20
-21/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021
-/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on main.pdf (17 pages, 5915806 bytes).
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/
+local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb></usr/local
+/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/local/texli
+ve/2021/texmf-dist/fonts/type1/public/cm-super/sfcc2488.pfb></usr/local/texlive
+/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2
+021/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/202
+1/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb></usr/local/texlive/2021/
+texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on main.pdf (24 pages, 6966488 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 319 compressed objects within 4 object streams
- 43 named destinations out of 1000 (max. 500000)
- 37063 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 429 compressed objects within 5 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 37137 words of extra memory for PDF output out of 42996 (max. 10000000)
 
