@@ -6,19 +6,26 @@
 \input{Configuraciones/nombres}
 %--------------------------
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.5]{Images/1}
+	\caption{Gráficas de los dos problemas}
+\end{figure}
 
 \begin{problema}
 	La altura sobre la hipotenusa de un triángulo rectángulo divide el triángulo en dos triángulos directamente semejantes, cada uno de los cuales es inversamente semejante al triángulo dado. 
 \end{problema}
 \begin{dem}
-	content...
+	
+	Primer caso: tenemos los triángulos $\triangle ABC$ y $\triangle ABD$. Nótese que $\angle ABC=\angle BDA=90^\circ$. Ahora, tenemos el $\angle DAB=\angle CAB$. Entonces por el criterio $AA$, $\triangle ABC\sim \triangle ABD$. Segundo caso: tenemos los triángulos $\triangle ABC$ y $\triangle DBC$. Nótese que $\angle ABC=\angle CDB=90^\circ$. Ahora, tenemos el $\angle BCA=\angle BCD$. Entonces por el criterio $AA$, $\triangle ABC\sim \triangle  DBC$. Por lo tanto, $\triangle ABC \sim \triangle ABD \sim \triangle DBC$.
 \end{dem}
 
 \begin{problema}
 	Dado un triángulo rectángulo el producto de longitudes de los catetos es igual al producto de longitudes de la hipotenusa y la altura respectiva.
 \end{problema}
 \begin{dem}
-	content...
+	A probar: $AB\cdot BC= BD\cdot AC$. Tomando como referencia el problema anterior, 
+	$$\frac{BD}{AB}=\frac{DC}{BC}=\frac{BC}{AC}\implies \frac{BD}{AB}=\frac{BC}{AC}\implies AB\cdot BC= BD\cdot AC $$
 \end{dem}
 
 

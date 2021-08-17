@@ -1,0 +1,119 @@
+\input{Configuraciones/paquetes}
+
+%--------------------------
+
+\begin{document}
+\input{Configuraciones/nombres}
+%--------------------------
+
+\begin{problema}
+	Dado un triángulo si en él unimos los puntos medios de los lados del triángulo obtenemos un nuevo triángulo.
+	\begin{figure}[H]
+		\centering 
+		\includegraphics[scale=0.3]{Images/1}
+	\end{figure}
+	\begin{enumerate}
+		\item Demuestre que el nuevo triángulo es homotético al triángulo original. 
+		\begin{dem}
+			Por el teorema del punto medio, $DF=\frac{1}{2}BC$, $EF=\frac{1}{2}AB$ y $DE=\frac{1}{2}AC$. Por lo tanto, por el criterio SSS para triángulos, comprobamos que $\triangle DEF\cong \triangle ABC$; lo que quiere decir que es homotético. 
+		\end{dem}
+		\item Obtenga el valor de la constante de homotecia.
+		\begin{sol}
+			Si usamos la demostración anterior, determinamos que por ejemplo $DF=BE$,  $DE=AF$, $EF=BD$ sucesivamente hasta determinar que se formaron 4 triángulos congruentes. Entonces, de homotecia es $1/4$. 
+		\end{sol}
+		\item Determine el centro de homotecia.
+		\begin{sol}
+			Como sabemos que el segundo triángulo es homotético y congruente al original. Además, 
+			$$\frac{DE}{AC}=\frac{DF}{BC}=\frac{EF}{AB}$$
+			Entonces, se está dividiendo en el punto medio y por lo tanto, podemos concluir que $G$ es el punto medio. 
+		\end{sol}
+	\end{enumerate}
+\end{problema}
+
+
+\begin{problema}
+	 Sea ABCD un cuadrilátero cíclico convexo, cuyas diagonales se cortan en O, entonces
+	$$
+	|A B||B C||O D|=|C D||D A||B O|
+	$$
+		\begin{figure}[H]
+		\centering 
+		\includegraphics[scale=0.3]{Images/3}
+	\end{figure}
+	\begin{dem}
+		Por la propiedad de ángulos inscritos en un cuadrilátero, sabemos 
+		\begin{align*}
+			\alpha : & \angle ABD \cong \angle ACD\\
+			\beta : & \angle DAC \cong \angle DBC\\
+			\gamma : & \angle CAB \cong \angle CDB\\
+			\varepsilon : & \angle BCA \cong \angle BDA\\
+		\end{align*},
+	Además, por la definición de convexidad, 
+	\begin{align*}
+		\Omega : & \angle AOD \cong \angle COB\\
+		\xi : & \angle BOA \cong \angle DOC\\
+	\end{align*}
+Ahora bien, vamos a utilizar la ley de senos en los siguientes triángulos: 
+\begin{align*}
+	\triangle OCD: & \frac{OC}{\sen \gamma}=\frac{OD}{\sen \alpha}\implies \frac{OC}{OD}=\frac{\sen \gamma}{\sen \alpha}\\
+	\triangle BCO: & \frac{OC}{\sen \beta}=\frac{BO}{\sen \varepsilon}\implies \frac{OC}{BO}=\frac{\sen \beta}{\sen \varepsilon}\\
+	\triangle BCD: & \frac{CD}{\sen\beta}=\frac{BC}{\sen \gamma}\implies \frac{CD}{BC}=\frac{\sen \beta }{\sen \gamma}\\
+	\triangle BDA: & \frac{AD}{\sen \alpha}=\frac{AB}{\sen\varepsilon}\implies \frac{AD}{AB}=\frac{\sen \alpha}{\sen\varepsilon}\\
+\end{align*}
+$$\implies \frac{\frac{OC}{OD}}{\frac{OC}{BO}}=\frac{OC\cdot BO}{OD\cdot OC}=\frac{\sen \gamma \cdot \sen \varepsilon}{\sen \alpha \cdot \sen \beta}=\frac{BC}{CD}\cdot \frac{AB}{AD}$$
+$$\implies \frac{BO}{OD}=\frac{BC}{CD}\cdot \frac{AB}{AD}$$
+Por lo tanto, por el valor absoluto y despejando: 
+	$$
+|A B||B C||O D|=|C D||D A||B O|
+$$
+	\end{dem}
+\end{problema}
+
+\begin{problema}
+	Se tiene un pentágono regular:
+		\begin{figure}[H]
+		\centering 
+		\includegraphics[scale=0.3]{Images/4}
+	\end{figure}
+	\begin{enumerate}
+	   \item Encuentre la razón que existe entre la diagonal $\mathrm{y}$ su lado.
+	   	\begin{dem}
+	   	Nótese que podemos formar un cuadrilátero inscrito en el circulo del pentágono. $\implies$ Por el teorema de Ptolomeo, 
+	   	$$AC\cdot BD = AB\cdot CD+AD\cdot BC$$
+	   	$\implies$ Como es una figura regular, sus diagonales miden lo mismo, igualmente sus lados miden lo mismo. Digamos que los lados están representados por $l$ y sus diagonales por $d$, entonces: 
+	   	$$d\cdot d = l\cdot l+d\cdot l\implies d^2 = l^2 +d\cdot l$$
+	   	La razón está dado por $r=d/l$, entonces dividamos todo por $l^2$: 
+	   	$$\implies \frac{d^2}{l^2}=1+ \frac{d}{l}\implies r^2=1+r\implies r^2-r-1=0$$
+	   	Usando la fórmula cuadrática: 
+	   	$$r=\frac{1\pm\sqrt{5}}{2}$$
+	   	Como nos interesa la razón, solo vamos a tomar en cuenta el número positivo.  Por lo tanto, 
+	   	$$\frac{d}{l}=\frac{1+\sqrt{5}}{2}$$
+	   \end{dem}
+	   \item Utilice lo anterior para determinar el $\cos 36^{\circ}$.
+	   	\begin{dem}
+	   Usando la ley de cosenos dada como, 
+	   $$c=\sqrt{a^2+b^2-2ab\cos\gamma}\implies \cos\gamma =\frac{c^2-a^2-b^2}{-2ab}$$
+	   Dado $a=1+\sqrt{5}$ y $b=c= 2$, concluimos:
+	   $$\implies \cos36^\circ = \frac{(2)^2-(1+\sqrt{5})^2-(2)^2}{-2(1+\sqrt{5})(2)}= \frac{1+\sqrt{5}}{4}$$ 
+	   \end{dem}
+	   \item Obtenga la razón entre el lado y el radio del circulo que lo suscribe.
+	   	\begin{dem}
+	   		Por las propiedades de los triángulos regulares, los ángulos que forman los radios en el centro (las líneas moradas en la figura) son de $72^\circ$ y los adyacentes a los lados de $54^\circ$. 
+	   		Entonces, por ley de senos: 
+	   		$$\frac{2}{\sen72}=\frac{OD}{\sen 54}$$
+	   	La razón es: 
+	   	$$\frac{1}{2}\sqrt{10-2\sqrt{5}}$$
+	   	[según la calculadora :(]
+	   \end{dem}
+	\end{enumerate}
+\end{problema}
+
+
+
+
+
+%---------------------------
+\bibliographystyle{apa}
+\bibliography{referencias.bib}
+
+\end{document}
