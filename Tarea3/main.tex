@@ -1,0 +1,42 @@
+\input{Configuraciones/paquetes}
+
+%--------------------------
+
+\begin{document}
+\input{Configuraciones/nombres}
+%--------------------------
+
+\begin{problema}
+	Tangentes a las circunferencias en $A^{\prime}$ y $B$ forman ángulos iguales con la línea $A^{\prime} B $. Si estas tangentes se intersecan en $E$ el triángulo $E A^{\prime} B$ es isósceles.
+	\begin{figure}[H]
+		\centering
+		\includegraphics[scale=0.2]{Images/1}
+	\end{figure}
+\end{problema}
+\begin{proof}
+	Nótese que por hipótesis $A',A,B,B',C,C'$ y $D,D'$ son homólogos. $\implies$ Como las circunferencias son homotéticas, entonces la tangente que pasa por $BE$ es paralela a la tangente que pasa por  $B'E'$ tal que $BE'\parallel B'E$. $\implies$ Por el teorema de paralelas y transversas $\angle A'B'E' = \angle A'B'E$. $\implies$ Por la definición de tangentes a circunferencias $\angle E'A'B' = \angle A'B'E'$. $\implies \triangle E'A'B'$ es isósceles. $\implies$ Por congruencia de los ángulos y teorema de similaridad para triángulos $\angle EA'B = \angle A'BE$. Por lo tanto, $\triangle EA'B$ es isósceles.
+\end{proof}
+
+
+\begin{problema}
+	 La circunferencia de similitud de dos circunferencias no concéntricas es el lugar geométrico de los puntos (1) tales que las razones de sus distancias a los centros de las circunferencias son iguales a las razones entre los radios; $y$ (2) desde los cuales las dos circunferencias subtienden ángulos iguales.
+	 \begin{figure}[H]
+	 	\centering
+	 	\includegraphics[scale=0.2]{Images/2}
+	 \end{figure}
+\end{problema}
+\begin{proof}
+	A probar: 
+	\begin{enumerate}
+		\item $P\in$ circunferencia de similitud $\implies PO/PO'=r/r'$. Supóngase que tenemos un punto $O''$ en el segmento de los centros, tal que el segmento $PH$ es la bisectriz de $\angle O''PO'$. $\implies$ Por el teorema de Thales, $PH \perp PK$ bisectan los $\angle$ interiores y exteriores en $P$ de $\triangle O''PO'$. $\implies$ 
+		$$\frac{O''H}{HO'}= -\frac{O''K}{KO'}\quad \text{y} \quad \frac{OH}{HO'}=-\frac{OK}{KO'}\implies \frac{H}{O''}\frac{O''}{K}=\frac{HO}{OK}\implies O''=O.$$
+		Por lo tanto, $$\frac{PO}{PO'}=\frac{r}{r'}.$$
+		\item $PO/PO'=r/r\implies P\in$ circunferencia de similitud.  Por el teorema de la bisectriz,  $PH$ es la bisectriz del $\angle$ interior en $P$ de $\triangle OPO'$. Por otra parte, por el teorema de la bisectriz $PK$ es la bisectriz del $\angle$ exterior en $P$ de $\triangle OPO'$. Por lo tanto, $PH\perp  PK$ y $P\in $ circunferencia de similitud. 
+	\end{enumerate}
+\end{proof}
+
+%---------------------------
+\bibliographystyle{apa}
+\bibliography{referencias.bib}
+
+\end{document}
